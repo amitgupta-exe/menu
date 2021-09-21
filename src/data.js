@@ -3,7 +3,7 @@ export const menu = [
         id: 10,
         title: "Butter Chicken",
         veg: false,
-        tags: ["nonveg","lunch", "dinner"],
+        tags: ["nonveg","lunch", "dinner", "chicken"],
         price: "120",
         image: "images/butterchicken.jpg",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi facilis, nam, alias recusandae minima explicabo veniam nulla velit incidunt porro optio aliquam eveniet a eius unde tenetur obcaecati."
