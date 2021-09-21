@@ -33,6 +33,7 @@ const App = () => {
 
   //By Tag Buttons
   const getItem = (tag) => {
+    console.log(tag);
     (tag === "all") ? setItems(fullMenu) : setItems(fullMenu.filter((item) => (item.tags.includes(tag) === true)));
   }
 

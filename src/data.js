@@ -3,7 +3,7 @@ export const menu = [
         id: 10,
         title: "Butter Chicken",
         veg: false,
-        tags: ["nonVeg","lunch", "dinner"],
+        tags: ["nonveg","lunch", "dinner"],
         price: "120",
         image: "images/butterchicken.jpg",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi facilis, nam, alias recusandae minima explicabo veniam nulla velit incidunt porro optio aliquam eveniet a eius unde tenetur obcaecati."
@@ -62,7 +62,7 @@ export const menu = [
         id: 6,
         title: "Chicken 65",
         veg: false,
-        tags: ["nonVeg","lunch", "dinner", "starter"],
+        tags: ["nonveg","lunch", "dinner", "starter"],
         price: "150",
         image: "images/chicken65.jpg",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi facilis, nam, alias recusandae minima explicabo veniam nulla velit incidunt porro optio aliquam eveniet a eius unde tenetur obcaecati."
@@ -72,7 +72,7 @@ export const menu = [
         id: 7,
         title: "Chicken Biriyani",
         veg: false,
-        tags: ["nonVeg","lunch", "dinner","mainCourse"],
+        tags: ["nonveg","lunch", "dinner","maincourse"],
         price: "350",
         image: "images/chickenbiriyani.jpg",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi facilis, nam, alias recusandae minima explicabo veniam nulla velit incidunt porro optio aliquam eveniet a eius unde tenetur obcaecati."
@@ -82,7 +82,7 @@ export const menu = [
         id: 8,
         title: "Dal Makhani",
         veg: true,
-        tags: ["veg","lunch", "dinner","mainCourse"],
+        tags: ["veg","lunch", "dinner","maincourse"],
         price: "100",
         image: "images/dalmakhani.jpg",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi facilis, nam, alias recusandae minima explicabo veniam nulla velit incidunt porro optio aliquam eveniet a eius unde tenetur obcaecati."
@@ -92,7 +92,7 @@ export const menu = [
         id: 9,
         title: "Paalak Paneer",
         veg: true,
-        tags: ["veg","lunch", "dinner","mainCourse"],
+        tags: ["veg","lunch", "dinner","maincourse"],
         price: "120",
         image: "images/palakpaneer.jpg",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi facilis, nam, alias recusandae minima explicabo veniam nulla velit incidunt porro optio aliquam eveniet a eius unde tenetur obcaecati."
@@ -113,7 +113,7 @@ export const menu = [
         id: 12,
         title: "Varan-Bhat",
         veg: true,
-        tags: ["veg","lunch", "dinner","mainCourse"],
+        tags: ["veg","lunch", "dinner","maincourse"],
         price: "60",
         image: "images/varanbhaat.jpg",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi facilis, nam, alias recusandae minima explicabo veniam nulla velit incidunt porro optio aliquam eveniet a eius unde tenetur obcaecati."
@@ -133,7 +133,7 @@ export const menu = [
         id: 14,
         title: "Chole Bhature",
         veg: true,
-        tags: ["veg","lunch", "dinner","mainCourse"],
+        tags: ["veg","lunch", "dinner","maincourse"],
         price: "120",
         image: "images/cholebhature.jpg",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi facilis, nam, alias recusandae minima explicabo veniam nulla velit incidunt porro optio aliquam eveniet a eius unde tenetur obcaecati."
@@ -173,7 +173,7 @@ export const menu = [
         id: 18,
         title: "Aloo-Gobhi",
         veg: true,
-        tags: ["veg","lunch", "dinner","mainCourse"],
+        tags: ["veg","lunch", "dinner","maincourse"],
         price: "120",
         image: "images/aloogobhi.jpg",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi facilis, nam, alias recusandae minima explicabo veniam nulla velit incidunt porro optio aliquam eveniet a eius unde tenetur obcaecati."
@@ -183,7 +183,7 @@ export const menu = [
         id: 19,
         title: "Chicken Fried Rice",
         veg: false,
-        tags: ["nonVeg","chinese", "lunch", "dinner","starter"],
+        tags: ["nonveg","chinese", "lunch", "dinner","starter"],
         price: "120",
         image: "images/chickenfriedrice.jpg",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi facilis, nam, alias recusandae minima explicabo veniam nulla velit incidunt porro optio aliquam eveniet a eius unde tenetur obcaecati."
