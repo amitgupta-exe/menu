@@ -12,6 +12,8 @@ html{
 @import './animations';
 @import './variables';
 
+@import './search';
+
 body{
     width: $fullViewPort;
 }
@@ -35,50 +37,6 @@ header{
 
 //Search
 
-.search{
-    background:rgb(141, 141, 141) url("../images/charles-deluvio-PqsImnjuElM-unsplash.jpg") no-repeat center;
-    background-size: cover;
-    background-blend-mode: multiply;
-    object-fit: contain;
-    width: 100vw;
-    height: 50vh;
-    @include flexCenter(space-evenly, column);
-
-    .search-box{
-        input{
-            margin-top: 5px;
-            width: 60vw;
-            height: 3rem;
-            border: none;
-            border-radius: 1rem 0 0 1rem;
-            padding: 0 2rem;
-            outline: none;
-        }
-        button{
-            margin-left: -5px;
-            width: fit-content;
-            height: 3rem;
-            box-sizing: content-box;
-            padding: 0rem 1rem;
-            background-color: white;
-            border: none;
-            border-radius:0 1rem 1rem 0;
-        }
-    }
-
-    .categories{
-        width: 50vw;
-        @include flexCenter(space-evenly, row);
-        button{
-            width: fit-content;
-            box-sizing: content-box;
-            padding: 0.2rem 1rem;
-            background-color: white;
-            border: none;
-            border-radius: 1rem;
-        }
-    }
-}
 
 
 .items-grid{
