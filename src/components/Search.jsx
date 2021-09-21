@@ -1,4 +1,5 @@
 import React, { useState, useContext } from 'react';
+import CategoryButton from './CategoryButton';
 
 
 const Search = ({ getItem, getItemName }) => {
@@ -15,6 +16,8 @@ const Search = ({ getItem, getItemName }) => {
         }
     })
 
+    const Categories = ["All","Breakfast","MainCourse", "Snack", "Starter","Veg", "NonVeg" ]
+
 
     return (
         <main>
@@ -24,13 +27,8 @@ const Search = ({ getItem, getItemName }) => {
                     <button onClick={() => getItemName(search)} type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                 </div>
                 <div className="categories">
-                    <button onClick={() => getItem("all")}>All</button>
-                    <button onClick={() => getItem("breakfast")}>Breakfast</button>
-                    <button onClick={() => getItem("lunch")}>Main-Course</button>
-                    <button onClick={() => getItem("snack")}>Snacks</button>
-                    <button onClick={() => getItem("starter")}>Starter</button>
-                    <button onClick={() => getItem("veg")}>Veg</button>
-                    <button onClick={() => getItem("nonVeg")}>Nonveg</button>
+                    {Categories.map((category)=>{return <CategoryButton getItem={getItem} tag={category}  />}) }
+                    
                 </div>
             </section>
         </main>
