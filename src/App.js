@@ -1,25 +1,58 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useContext } from 'react';
 
-function App() {
+//Styles
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./styles/styles.css";
+
+//Components
+import Header from './components/Header';
+import Search from './components/Search';
+import Items from './components/Items';
+
+//Context
+import { ItemContext } from './context';
+
+
+//App Function
+
+const App = () => {
+
+  //Context
+  const { item, fullMenu } = useContext(ItemContext);
+  const [items, setItems] = item;
+
+
+
+//Filter Functions
+
+  //By Search Box
+  const getItemName =(input) =>{
+    setItems(fullMenu.filter((item) => (item.title.toLowerCase() === input.toLowerCase()) || (item.title.toLowerCase().includes(input.toLowerCase()) === true) || (item.tags.includes(input.toLowerCase()) === true)  ));
+  
+  }
+
+  //By Tag Buttons
+  const getItem = (tag) => {
+    (tag === "all") ? setItems(fullMenu) : setItems(fullMenu.filter((item) => (item.tags.includes(tag) === true)));
+  }
+
+
+  //APP
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <main>
+
+      <section>
+        <Header />
+      </section>
+      <section className="search">
+        <Search getItemName={getItemName}   getItem={getItem} />
+      </section>
+      <section>
+        <Items />
+      </section>
+
+    </main>
+  )
 }
 
 export default App;
