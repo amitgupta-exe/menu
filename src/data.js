@@ -3,7 +3,7 @@ export const menu = [
         id: 10,
         title: "Butter Chicken",
         veg: false,
-        tags: ["nonveg","lunch", "dinner", "chicken"],
+        tags: ["nonveg","lunch", "dinner", "chicken", "north indian"],
         price: "120",
         image: "images/butterchicken.jpg",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi facilis, nam, alias recusandae minima explicabo veniam nulla velit incidunt porro optio aliquam eveniet a eius unde tenetur obcaecati."
@@ -22,7 +22,7 @@ export const menu = [
         id: 2,
         title: "Idli Sambhar",
         veg: true,
-        tags: ["breakfast","veg"],
+        tags: ["breakfast","veg", "south indian"],
         price: "40",
         image: "images/idlisambhar.jpg",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi facilis, nam, alias recusandae minima explicabo veniam nulla velit incidunt porro optio aliquam eveniet a eius unde tenetur obcaecati."
@@ -30,9 +30,9 @@ export const menu = [
 
     {
         id: 3,
-        title: "Mendu Vada",
+        title: "Medu Vada",
         veg: true,
-        tags: ["breakfast","veg"],
+        tags: ["breakfast","veg", "south indian"],
         price: "40",
         image: "images/meduvada.jpg",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi facilis, nam, alias recusandae minima explicabo veniam nulla velit incidunt porro optio aliquam eveniet a eius unde tenetur obcaecati."
@@ -52,7 +52,7 @@ export const menu = [
         id: 5,
         title: "Poha",
         veg: true,
-        tags: ["breakfast","veg"],
+        tags: ["breakfast","veg", "maharashtrian"],
         price: "30",
         image: "images/poha.jpg",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi facilis, nam, alias recusandae minima explicabo veniam nulla velit incidunt porro optio aliquam eveniet a eius unde tenetur obcaecati."
@@ -72,7 +72,7 @@ export const menu = [
         id: 7,
         title: "Chicken Biriyani",
         veg: false,
-        tags: ["nonveg","lunch", "dinner","maincourse"],
+        tags: ["nonveg","lunch", "dinner","maincourse", "chicken"],
         price: "350",
         image: "images/chickenbiriyani.jpg",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi facilis, nam, alias recusandae minima explicabo veniam nulla velit incidunt porro optio aliquam eveniet a eius unde tenetur obcaecati."
@@ -82,7 +82,7 @@ export const menu = [
         id: 8,
         title: "Dal Makhani",
         veg: true,
-        tags: ["veg","lunch", "dinner","maincourse"],
+        tags: ["veg","lunch", "dinner","maincourse","north indian", "punjabi"],
         price: "100",
         image: "images/dalmakhani.jpg",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi facilis, nam, alias recusandae minima explicabo veniam nulla velit incidunt porro optio aliquam eveniet a eius unde tenetur obcaecati."
@@ -113,7 +113,7 @@ export const menu = [
         id: 12,
         title: "Varan-Bhat",
         veg: true,
-        tags: ["veg","lunch", "dinner","maincourse"],
+        tags: ["veg","lunch", "dinner","maincourse", "maharashtrian"],
         price: "60",
         image: "images/varanbhaat.jpg",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi facilis, nam, alias recusandae minima explicabo veniam nulla velit incidunt porro optio aliquam eveniet a eius unde tenetur obcaecati."
@@ -123,7 +123,7 @@ export const menu = [
         id: 13,
         title: "Vada Paav",
         veg: true,
-        tags: ["veg","snack"],
+        tags: ["veg","snack", "maharashtrian"],
         price: "20",
         image: "images/vadapav.jpg",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi facilis, nam, alias recusandae minima explicabo veniam nulla velit incidunt porro optio aliquam eveniet a eius unde tenetur obcaecati."
@@ -143,7 +143,7 @@ export const menu = [
         id: 15,
         title: "Paav Bhaaji",
         veg: true,
-        tags: ["veg", "dinner"],
+        tags: ["veg", "dinner", "maharashtrian"],
         price: "100",
         image: "images/pavbhaji.jpg",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi facilis, nam, alias recusandae minima explicabo veniam nulla velit incidunt porro optio aliquam eveniet a eius unde tenetur obcaecati."
@@ -183,7 +183,7 @@ export const menu = [
         id: 19,
         title: "Chicken Fried Rice",
         veg: false,
-        tags: ["nonveg","chinese", "lunch", "dinner","starter"],
+        tags: ["nonveg","chinese", "lunch", "dinner","starter", "chicken"],
         price: "120",
         image: "images/chickenfriedrice.jpg",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi facilis, nam, alias recusandae minima explicabo veniam nulla velit incidunt porro optio aliquam eveniet a eius unde tenetur obcaecati."

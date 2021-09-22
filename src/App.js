@@ -25,11 +25,11 @@ const App = () => {
 
 
 
-//Filter Functions
+  //Filter Functions. VERY VERY IMPORTANT. DONT MESS WITH IT!!!!!!!!
 
   //By Search Box
   const getItemName =(input) =>{
-    setItems(fullMenu.filter((item) => (item.title.toLowerCase() === input.toLowerCase()) || (item.title.toLowerCase().includes(input.toLowerCase()) === true) || (item.tags.includes(input.toLowerCase()) === true)  ));
+    setItems(fullMenu.filter((item) => (item.title.toLowerCase().includes(input.toLowerCase()) === true) || (item.tags.includes(input.toLowerCase()) === true)  ));
   
   }
 
@@ -44,15 +44,9 @@ const App = () => {
   return (
     <main>
 
-      <section>
-        <Header />
-      </section>
-      <section className="search">
-        <Search getItemName={getItemName}   getItem={getItem} />
-      </section>
-      <section>
-        <Items />
-      </section>
+      <section><Header /></section>
+      <section className="search"><Search getItemName={getItemName}   getItem={getItem} /></section>
+      <section><Items /></section>
 
     </main>
   )

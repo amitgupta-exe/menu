@@ -15,6 +15,7 @@ const Search = ({ getItem, getItemName }) => {
         setSearch(e.target.value);
     }
 
+    // Enter Key to Search
     document.addEventListener("keyup", function (e) {
         if (e.key === "Enter") {
             getItemName(search)
@@ -33,7 +34,6 @@ const Search = ({ getItem, getItemName }) => {
                 </div>
                 <div className="categories">
                     {Categories.map((category) => { return <CategoryButton key={category.id} getItem={getItem} tag={category} /> })}
-
                 </div>
             </section>
         </main>
