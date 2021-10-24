@@ -1,0 +1,32 @@
+@media screen and (max-width:1000px) {
+    .items-grid{
+        display: grid;
+        grid-template-columns: auto auto !important;
+    }
+
+    .item{
+        width: 45vw !important;
+        height: 25vh !important;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .items-grid{
+        display: grid;
+        grid-template-columns: auto !important;
+    }
+
+    .item{
+        width: 80vw !important;
+        height: 20vh !important;
+        img{
+            width: auto;
+            height: 100%;
+        }
+    }
+
+    .item:hover{
+        transform: scale(100%) !important;
+    }
+}

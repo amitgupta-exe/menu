@@ -44,7 +44,6 @@ const App = () => {
   return (
     <main>
 
-      <section><Header /></section>
       <section className="search"><Search getItemName={getItemName}   getItem={getItem} /></section>
       <section><Items /></section>
 
