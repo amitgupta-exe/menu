@@ -5,10 +5,6 @@
           box-sizing: border-box;
 }
 
-html {
-  overflow-x: hidden;
-}
-
 @-webkit-keyframes fadeIn {
   from {
     -webkit-transform: scale(0);
@@ -286,6 +282,7 @@ button {
 
 body {
   width: 100vw;
+  background-color: aqua;
 }
 
 header {
